@@ -37,47 +37,12 @@ Developed as part of **[Database Management Systems]** at **[SRM IST DELHI NCR]*
 
 ##  Project Details
 
-- **Database Purpose**  
-  - Designed for an **online retail shopping system** to manage and track customer information, product details, inventory, wishlists, shopping carts, payments, and shipping details.  
-  - Acts as the backend foundation for any potential e-commerce web or desktop application.  
-
-- **Entities & Relationships**  
-  - **Customer**: Stores personal details (ID, name, email).  
-  - **Product Category**: Categorizes products for better inventory management.  
-  - **Products**: Contains product details linked to their category.  
-  - **Wishlist**: Tracks products that customers are interested in but haven’t purchased yet (many-to-many relationship).  
-  - **Shopping Cart**: Manages items customers are planning to purchase, including quantity.  
-  - **Payment**: Stores payment details (method, placeholder card number) linked to customers.  
-  - **Shipping Details**: Maintains delivery address and city for orders.  
-
-- **Database Design & Normalization**  
-  - Structured to **Third Normal Form (3NF)** to avoid redundancy and ensure data integrity.  
-  - Used **primary keys** for unique identification and **foreign keys** to maintain relationships between tables.  
-  - Implemented **composite primary keys** in many-to-many tables (`wishlist`, `shoppingcart`).  
-
-- **Queries Implemented**  
-  - Display all records from each table.  
-  - **INNER JOIN**: Customer with Wishlist products.  
-  - **LEFT JOIN**: Customers with shopping cart items (shows customers even if they have no cart).  
-  - **RIGHT JOIN**: Payments linked to customers.  
-  - Category-wise product listing with prices.  
-
-- **Sample Data**  
-  - Contains **placeholder records** for customers, products, payments, and addresses.  
-  - Payment card numbers are **fictitious placeholders** for demonstration only.  
-
-- **Technical Skills Demonstrated**  
-  - Relational database design.  
-  - SQL DDL (CREATE, ALTER, DROP).  
-  - SQL DML (INSERT, UPDATE, DELETE).  
-  - SQL joins, constraints, and indexing.  
-  - Database documentation (ER diagram & project report).  
-
-- **Potential Real-World Extensions**  
-  - Add an `orders` table for completed transactions.  
-  - Include triggers for automatic stock updates.  
-  - Add stored procedures for order placement and payment handling.  
-  - Create indexes for faster query performance on large datasets.  
+- Designed and implemented a **normalized MySQL database** (3NF) for an online retail shopping system, covering customers, products, wishlists, carts, payments, and shipping details.  
+- Created an **ER diagram** and converted it into a fully functional relational schema with primary keys, foreign keys, and composite keys.  
+- Inserted **sample placeholder data** to simulate real-world scenarios for testing and demonstration.  
+- Developed **SQL queries** including INNER, LEFT, and RIGHT JOINs for business analysis (wishlist trends, product listings, payment tracking).  
+- Documented the design and workflow in a **detailed project report** and provided **screenshots of outputs** for clear understanding.  
+- Proposed **future enhancements** such as order tracking, stock update triggers, stored procedures, and query optimization with indexing.  
 
 ---
 
