@@ -17,18 +17,15 @@ Developed as part of **[Database Management Systems]** at **[SRM IST]** in **[20
 
 ---
 
-
----
-
 ##  ER Diagram
-![ER Diagram](screenshots/er_diagram.png)
+![ER Diagram](screenshots/er_diagram.jpg)
 
 ---
 
 ##  Example Outputs
 
 ### 1️ Customer Table Output
-![Customers Output](screenshots/customers.png)
+![Customers Output](screenshots/customer.png)
 
 ### 2️ Products with Categories
 ![Products Output](screenshots/products.png)
@@ -102,14 +99,11 @@ mysql -u <username> -p onlineretail < data.sql
 # Run queries
 mysql -u <username> -p onlineretail < queries.sql
 
+```
 Replace <username> with your MySQL username (e.g., root).
 
-
 ---
 
----
-
-```
 ##  Project Structure
 
 ```txt
