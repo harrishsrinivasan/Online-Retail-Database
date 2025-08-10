@@ -13,7 +13,7 @@ This project models the essential operations of an online retail system, includi
 
 The database is normalized up to **Third Normal Form (3NF)** and ensures **referential integrity** via primary & foreign keys.  
 
-Developed as part of **[Database Management Systems]** at **[SRM IST]** in **[2024]**.
+Developed as part of **[Database Management Systems]** at **[SRM IST DELHI NCR]** in **[2024]**.
 
 ---
 
