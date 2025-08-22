@@ -1,4 +1,4 @@
-#  Online Retail Database Management System
+#  Online Retail Database Management System (My SQL + PowerBI)
 
 **Normalized MySQL database** designed for an online retail store — developed as a college project to demonstrate database design, relational integrity, and SQL query proficiency.
 
